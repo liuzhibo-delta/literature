@@ -1,0 +1,21 @@
+我不喜欢加分减分这样的说法 
+
+之前的文章里也有提到
+我不喜欢讨论加分和减分
+那里写得原因是谈论加分减分的时候 
+可能性已经收缩了
+再加再减也不会有新的变换
+
+好 我们现在用离散数学的方法进行讨论
+加分减分的存在 -> 存在一个映射f : Person -> Score
+then 这个Score满足以下的性质
+    a.if a.Score > b.Score and b.Score > c.Score :
+        then a.Score > c.Score
+    b.if a.Score > b.Score :
+        then not ( b.Score > a.Score )
+    c.each a that :
+            not ( a.Score > a.Score )
+那么我们就定义了一个偏序关系
+那么定义这个偏序关系有什么问题呢
+这个问题就很大了
+这就涉及到“人的异化”了
